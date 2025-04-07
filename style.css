@@ -141,7 +141,7 @@ li:hover .del {
 
     li {
         left: -5%;
-
+        font-size: 20px;
     }
 
     ul {
@@ -151,7 +151,9 @@ li:hover .del {
     .del {
         right: 4%;
     }    
-    li{
-        font-size: 20px;
+    .check {
+        position: absolute;
+        top: 18px;
     }
+
 }
