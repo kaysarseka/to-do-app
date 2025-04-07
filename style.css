@@ -130,18 +130,25 @@ li:hover .del {
 }
 
 
-@media (max-width: 768px){
-    #taskInput{
+@media (max-width: 768px) {
+    #taskInput {
         width: 70%;
     }
-    li{
-        left: -5%;
-        
+
+    .add {
+        position:static;
     }
-    ul{
+
+    li {
+        left: -5%;
+
+    }
+
+    ul {
         width: 65%;
     }
-    .del{
+
+    .del {
         right: 4%;
     }
 }
